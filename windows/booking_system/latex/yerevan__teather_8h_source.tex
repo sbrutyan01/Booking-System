@@ -1,0 +1,60 @@
+\doxysection{yerevan\+\_\+teather.\+h}
+\hypertarget{yerevan__teather_8h_source}{}\label{yerevan__teather_8h_source}\index{booking\_system/yerevan\_teather.h@{booking\_system/yerevan\_teather.h}}
+\mbox{\hyperlink{yerevan__teather_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#ifndef\ YEREVAN\_TEATHER\_H}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ YEREVAN\_TEATHER\_H}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classyerevan__teather_a64dacaa33732c837661855a5824f5397}{yerevan\_teather}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{classyerevan__teather_a64dacaa33732c837661855a5824f5397}{yerevan\_teather}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a57883d6e105f6d60a0a6782d74848ac4}{print\_welcome}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a1dbeaa83ebec883f9949dce854be3532}{print\_movie\_list}}();\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a9dde0ef3db892dfc49440120ea30e4fd}{set\_seat\_info\_yerevan\_hall1}}(std::string\ seat\_name);}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a7b2d1a9db16575f0b3a6dc6f6a488502}{set\_seat\_info\_yerevan\_hall2}}(std::string\ seat\_name);}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a2febd097e8b16e085f9d20ac7af3d2f8}{set\_seat\_info\_yerevan\_hall3}}(std::string\ seat\_name);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a4318285754fcda0deb724912ecdb896e}{get\_seat\_info\_yerevan\_hall1}}();}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a746d3fda18242f8fcdbc7dba956f3641}{get\_seat\_info\_yerevan\_hall2}}();}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a19668817202444c2425011c5fab54d29}{get\_seat\_info\_yerevan\_hall3}}();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a3c78e76bfa55d40f3d6dad84c10b1b70}{set\_movie\_list}}(std::string\ movie\_name1,\ std::string\ movie\_name2,\ std::string\ movie\_name3);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classyerevan__teather_a93b1c3daf097eeb86a26d1f5a7a61b5d}{get\_movie\_list}}();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \ \ \ \ std::string\ \mbox{\hyperlink{classyerevan__teather_ab83b73f7dd8f439c0f90f718847c6129}{get\_movie\_name}}(\textcolor{keywordtype}{int}\ movie\_number);}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00081\ \ \ \ \ \mbox{\hyperlink{classyerevan__teather_a74c69a476c4e535af8295301f3f97df0}{\string~yerevan\_teather}}();}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00089\ \ \ \ \ std::map<int,\ bool>\ yerevan\_seats\_hall1;}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00094\ \ \ \ \ std::map<int,\ bool>\ yerevan\_seats\_hall2;}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00099\ \ \ \ \ std::map<int,\ bool>\ yerevan\_seats\_hall3;}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00104\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ MOVIE\_COUNT\ =\ 3;}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00109\ \ \ \ \ std::string\ movie\_list[MOVIE\_COUNT];}
+\DoxyCodeLine{00110\ \};}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

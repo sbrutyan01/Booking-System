@@ -1,0 +1,61 @@
+\doxysection{nairi\+\_\+teather.\+h}
+\hypertarget{nairi__teather_8h_source}{}\label{nairi__teather_8h_source}\index{booking\_system/nairi\_teather.h@{booking\_system/nairi\_teather.h}}
+\mbox{\hyperlink{nairi__teather_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#ifndef\ NAIRI\_TEATHER\_H}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ NAIRI\_TEATHER\_H}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnairi__teather_aab566d930ed4dfdaa713bf2cf3675e27}{nairi\_teather}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{classnairi__teather_aab566d930ed4dfdaa713bf2cf3675e27}{nairi\_teather}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_a7cf8c6962e76c16edf2c73234874d2e4}{print\_welcome}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_af68ef52fafe806c0453c8c71f95f18db}{print\_movie\_list}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_ad297a96591f5d18ae612031a03ea05b8}{set\_seat\_info\_nairi\_hall1}}(std::string\ seat\_name);}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_ae13316c908ea8ad7db64792bb9b3f91b}{set\_seat\_info\_nairi\_hall2}}(std::string\ seat\_name);}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_ac7753ede40149046ffb99f4110d46723}{set\_seat\_info\_nairi\_hall3}}(std::string\ seat\_name);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_aa7e7fd2081b6f375ec0ec11ab2871542}{get\_seat\_info\_nairi\_hall1}}();}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_af9a4fbf95cb0b4fa582653154a784dcf}{get\_seat\_info\_nairi\_hall2}}();}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_af384967b11b81933d118d4061380b477}{get\_seat\_info\_nairi\_hall3}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_ac30f3dc0c28fcaec216a46990f91f9aa}{set\_movie\_list}}(std::string\ movie\_name1,\ std::string\ movie\_name2,\ std::string\ movie\_name3);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnairi__teather_ab59f6c619bf656eb1a86288adb02ef15}{get\_movie\_list}}();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \ \ \ \ std::string\ \mbox{\hyperlink{classnairi__teather_af0a77f621121075543867533f65dea91}{get\_movie\_name}}(\textcolor{keywordtype}{int}\ movie\_number);}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00081\ \ \ \ \ \mbox{\hyperlink{classnairi__teather_a5258e53fe2bf4d4cd93cbc3773f9e1d4}{\string~nairi\_teather}}();}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00089\ \ \ \ \ std::map<int,\ bool>\ nairi\_seats\_hall1;}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00094\ \ \ \ \ std::map<int,\ bool>\ nairi\_seats\_hall2;}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00099\ \ \ \ \ std::map<int,\ bool>\ nairi\_seats\_hall3;}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00104\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ MOVIE\_COUNT\ =\ 3;}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00109\ \ \ \ \ std::string\ movie\_list[MOVIE\_COUNT];}
+\DoxyCodeLine{00110\ \};}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00113\ }
+
+\end{DoxyCode}

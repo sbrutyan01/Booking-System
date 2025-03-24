@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_yerevan__teather_8h" xml:lang="en-US">
+<title>booking_system/yerevan_teather.h File Reference</title>
+<indexterm><primary>booking_system/yerevan_teather.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;<?linebreak?>#include &lt;map&gt;<?linebreak?>#include &lt;algorithm&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?></programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classyerevan__teather">yerevan_teather</link></para>
+
+<para>Yerevan Teather class. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_yerevan__teather_8h_1a0cd233b66649e4ea9f5bed121b23ee4a">YEREVAN_TEATHER_H</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan <link xlink:href="mailto:sbrutyan01@gmail.com">sbrutyan01@gmail.com</link> </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0</para>
+</formalpara>
+</para>
+<section xml:id="_yerevan__teather_8h_1DESCRITPION">
+<title>DESCRITPION</title>
+<para>This class represents the Yerevan Teather and all is functionalities </para>
+</section>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_yerevan__teather_8h_1a0cd233b66649e4ea9f5bed121b23ee4a"/><section>
+    <title>YEREVAN_TEATHER_H</title>
+<indexterm><primary>YEREVAN_TEATHER_H</primary><secondary>yerevan_teather.h</secondary></indexterm>
+<indexterm><primary>yerevan_teather.h</primary><secondary>YEREVAN_TEATHER_H</secondary></indexterm>
+<para><computeroutput>#define YEREVAN_TEATHER_H</computeroutput></para>
+<para>headers from standard library </para>
+</section>
+</section>
+</section>

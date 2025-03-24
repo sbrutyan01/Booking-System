@@ -1,0 +1,59 @@
+\doxysection{ararat\+\_\+teather.\+h}
+\hypertarget{ararat__teather_8h_source}{}\label{ararat__teather_8h_source}\index{booking\_system/ararat\_teather.h@{booking\_system/ararat\_teather.h}}
+\mbox{\hyperlink{ararat__teather_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#ifndef\ ARARAT\_TEATHER\_H}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ ARARAT\_TEATHER\_H}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classararat__teather_aa56f5dab244e1a4623184d2b964d8335}{ararat\_teather}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{classararat__teather_aa56f5dab244e1a4623184d2b964d8335}{ararat\_teather}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a576772e12d0d252f7948ad233ca1a8dd}{print\_welcome}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_ae16b059c8b88b952fc98c0d5d6f326c4}{print\_movie\_list}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a6e244ff1cadafe67ae7048cad9ae9bd4}{set\_seat\_info\_ararat\_hall1}}(std::string\ seat\_name);}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_af70b6caf3f8a22cbabe376ac6a74574b}{set\_seat\_info\_ararat\_hall2}}(std::string\ seat\_name);}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a2e83b1f8ce5915ce140ea3c1d0184102}{set\_seat\_info\_ararat\_hall3}}(std::string\ seat\_name);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a2dbce2243ca7fc4e739964624af1955c}{get\_seat\_info\_ararat\_hall1}}();}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a634f02f4c97637ae4d9c6c04061655ee}{get\_seat\_info\_ararat\_hall2}}();}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_aaf080e2b22e73a8d322c1831b183d9ea}{get\_seat\_info\_ararat\_hall3}}();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_aa36cc0234a4a32a95099acec4df98895}{set\_movie\_list}}(std::string\ movie\_name1,\ std::string\ movie\_name2,\ std::string\ movie\_name3);}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classararat__teather_a0de9ce36b25e2d205ec6eb8f82b4d100}{get\_movie\_list}}();}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00075\ \ \ \ \ std::string\ \mbox{\hyperlink{classararat__teather_af8498482cc80b4954280828286ff955a}{get\_movie\_name}}(\textcolor{keywordtype}{int}\ movie\_number);}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{classararat__teather_a2b9eaf2d401a609b85e7acdf331a628c}{\string~ararat\_teather}}();}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00088\ \ \ \ \ std::map<int,\ bool>\ ararat\_seats\_hall1;}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00093\ \ \ \ \ std::map<int,\ bool>\ ararat\_seats\_hall2;}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00098\ \ \ \ \ std::map<int,\ bool>\ ararat\_seats\_hall3;}
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00103\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ MOVIE\_COUNT\ =\ 3;}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00108\ \ \ \ \ std::string\ movie\_list[MOVIE\_COUNT];}
+\DoxyCodeLine{00109\ \};}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

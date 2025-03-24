@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8cpp" xml:lang="en-US">
+<title>booking_system/main.cpp File Reference</title>
+<indexterm><primary>booking_system/main.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;ararat_teather.h&quot;<?linebreak?>#include &quot;yerevan_teather.h&quot;<?linebreak?>#include &quot;nairi_teather.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_main_8cpp_1a7c3d64d000a9abafa2506315ec16d48f">print_teather_list</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan <link xlink:href="mailto:sbrutyan01@gmail.com">sbrutyan01@gmail.com</link> </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0</para>
+</formalpara>
+</para>
+<section xml:id="_yerevan__teather_8h_1DESCRITPION">
+<title>DESCRITPION</title>
+<para>This class represents the main and all is functionalities </para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para>
+<para>three teathers as objects</para>
+
+<para>set movie names list</para>
+
+<para>set movie names list</para>
+
+<para>set movie names list</para>
+
+<para>command that entered by user</para>
+
+<para>seat name variable enterd by user</para>
+
+<para>select teather Ararat Teather</para>
+
+<para>select movie #1 in ararat teather</para>
+
+<para>seat booking procedure for ararat teather for movie #1</para>
+
+<para>exit from seat booking procedure for ararat teather for movie #1</para>
+
+<para>select movie #2 in ararat teather</para>
+
+<para>seat booking procedure for ararat teather for movie #2</para>
+
+<para>exit from seat booking procedure for ararat teather for movie #2</para>
+
+<para>select movie #3 in ararat teather</para>
+
+<para>seat booking procedure for ararat teather for movie #3</para>
+
+<para>exit from seat booking procedure for ararat teather movie #3</para>
+
+<para>exit from movie selection menu in ararat teather</para>
+
+<para>exit from ararat teather menu</para>
+
+<para>ararat teather selection finished here</para>
+
+<para>select teather Yerevan Teather</para>
+
+<para>show movie list in yerevan teather</para>
+
+<para>yerevan teather movie selection menu</para>
+
+<para>select movie #1 in yerevan teather</para>
+
+<para>seat booking procedure for yerevan teather for movie #1</para>
+
+<para>exit from seat booking procedure for yerevan teather movie #1</para>
+
+<para>select movie #2 in yerevan teather</para>
+
+<para>seat booking procedure in yerevan teather for movie #2</para>
+
+<para>exit from program after booking seat</para>
+
+<para>select yerevan teather movie #3</para>
+
+<para>seats bookiing procedure for yerevan teather for movie #3</para>
+
+<para>exit from seat booking procedure for yerevan teather for movie #3</para>
+
+<para>exit from movie selection menu in yerevan teather</para>
+
+<para>exit from yerevan teather menu</para>
+
+<para>yerevan teather selection is finished here</para>
+
+<para>select Nairi Teather</para>
+
+<para>show movie list in Nairi teather <?linebreak?></para>
+
+<para>nairi teather movie selection menu</para>
+
+<para>nairi teather movie #1 selection</para>
+
+<para>seat booking procedure in nairi teather for movie #1</para>
+
+<para>exit seat booking procedure for nairi teather for movie #1</para>
+
+<para>nairi teather movie #2 selection</para>
+
+<para>seats booking procedure in nairi teather for movie #2</para>
+
+<para>exit procedure for nairi teather for movie #2</para>
+
+<para>nairi teather movie #3 selection</para>
+
+<para>seat booking procedure in nairi teather for movie #3</para>
+
+<para>exit from seat booking procedure in nairi teather for movie #3</para>
+
+<para>exit from nairi teather from movie selection list menu</para>
+
+<para>exit from nairi teather menu</para>
+
+<para>nairi teather selection is finished here</para>
+
+<para>exit from teather selection list</para>
+
+<para>exit from teather selection list</para>
+
+<para>exit from teather selection list</para>
+
+<para>exit from booking system (global menu)</para>
+
+<para>forever loop for menu and selections</para>
+
+<para>destructor for ararat teather object</para>
+
+<para>destructor for yerevan teather object</para>
+
+<para>destructor for nairi teather object</para>
+</section>
+<anchor xml:id="_main_8cpp_1a7c3d64d000a9abafa2506315ec16d48f"/><section>
+    <title>print_teather_list()</title>
+<indexterm><primary>print_teather_list</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>print_teather_list</secondary></indexterm>
+<para><computeroutput>void print_teather_list ( )</computeroutput></para>
+<para>global function prototype to only show teather list</para>
+
+<para>global function for only showing teather list </para>
+</section>
+</section>
+</section>

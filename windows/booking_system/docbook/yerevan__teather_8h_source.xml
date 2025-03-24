@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_yerevan__teather_8h_source" xml:lang="en-US">
+<title>yerevan_teather.h</title>
+<indexterm><primary>booking_system/yerevan_teather.h</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 
+10 
+11 <emphasis role="preprocessor">#pragma&#32;once</emphasis><emphasis role="preprocessor"></emphasis>
+15 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+16 <emphasis role="preprocessor">#include&#32;&lt;map&gt;</emphasis>
+17 <emphasis role="preprocessor">#include&#32;&lt;algorithm&gt;</emphasis>
+18 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+19 
+20 <emphasis role="preprocessor">#ifndef&#32;YEREVAN_TEATHER_H</emphasis>
+21 <emphasis role="preprocessor">#define&#32;YEREVAN_TEATHER_H</emphasis>
+22 
+27 
+28 <emphasis role="keyword">class&#32;</emphasis><link linkend="_classyerevan__teather_1a64dacaa33732c837661855a5824f5397">yerevan_teather</link>
+29 {
+30 <emphasis role="keyword">public</emphasis>:
+31 
+35 &#32;&#32;&#32;&#32;<link linkend="_classyerevan__teather_1a64dacaa33732c837661855a5824f5397">yerevan_teather</link>();
+36 
+40 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a57883d6e105f6d60a0a6782d74848ac4">print_welcome</link>();
+41 
+45 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a1dbeaa83ebec883f9949dce854be3532">print_movie_list</link>();&#32;
+46 
+50 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a9dde0ef3db892dfc49440120ea30e4fd">set_seat_info_yerevan_hall1</link>(std::string&#32;seat_name);
+51 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a7b2d1a9db16575f0b3a6dc6f6a488502">set_seat_info_yerevan_hall2</link>(std::string&#32;seat_name);
+52 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a2febd097e8b16e085f9d20ac7af3d2f8">set_seat_info_yerevan_hall3</link>(std::string&#32;seat_name);
+53 
+57 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a4318285754fcda0deb724912ecdb896e">get_seat_info_yerevan_hall1</link>();
+58 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a746d3fda18242f8fcdbc7dba956f3641">get_seat_info_yerevan_hall2</link>();
+59 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a19668817202444c2425011c5fab54d29">get_seat_info_yerevan_hall3</link>();
+60 
+61 
+65 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a3c78e76bfa55d40f3d6dad84c10b1b70">set_movie_list</link>(std::string&#32;movie_name1,&#32;std::string&#32;movie_name2,&#32;std::string&#32;movie_name3);
+66 
+70 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classyerevan__teather_1a93b1c3daf097eeb86a26d1f5a7a61b5d">get_movie_list</link>();
+71 
+76 &#32;&#32;&#32;&#32;std::string&#32;<link linkend="_classyerevan__teather_1ab83b73f7dd8f439c0f90f718847c6129">get_movie_name</link>(<emphasis role="keywordtype">int</emphasis>&#32;movie_number);
+77 
+81 &#32;&#32;&#32;&#32;<link linkend="_classyerevan__teather_1a74c69a476c4e535af8295301f3f97df0">~yerevan_teather</link>();
+82 
+83 
+84 <emphasis role="keyword">private</emphasis>:
+85 
+89 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;yerevan_seats_hall1;
+90 
+94 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;yerevan_seats_hall2;
+95 
+99 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;yerevan_seats_hall3;
+100 
+104 &#32;&#32;&#32;&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keyword">const</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;MOVIE_COUNT&#32;=&#32;3;
+105 
+109 &#32;&#32;&#32;&#32;std::string&#32;movie_list[MOVIE_COUNT];
+110 };
+111 
+112 <emphasis role="preprocessor">#endif</emphasis>
+</programlisting></section>

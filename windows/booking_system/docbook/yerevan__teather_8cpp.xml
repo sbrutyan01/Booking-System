@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_yerevan__teather_8cpp" xml:lang="en-US">
+<title>booking_system/yerevan_teather.cpp File Reference</title>
+<indexterm><primary>booking_system/yerevan_teather.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;yerevan_teather.h&quot;<?linebreak?></programlisting></section>

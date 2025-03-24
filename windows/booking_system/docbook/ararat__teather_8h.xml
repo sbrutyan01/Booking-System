@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ararat__teather_8h" xml:lang="en-US">
+<title>booking_system/ararat_teather.h File Reference</title>
+<indexterm><primary>booking_system/ararat_teather.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;<?linebreak?>#include &lt;map&gt;<?linebreak?>#include &lt;algorithm&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?></programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classararat__teather">ararat_teather</link></para>
+
+<para>Ararat Teather class. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_ararat__teather_8h_1a7a7ca54b12c67181dc1c8e86d7f5d4e2">ARARAT_TEATHER_H</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan <link xlink:href="mailto:sbrutyan01@gmail.com">sbrutyan01@gmail.com</link> </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0</para>
+</formalpara>
+</para>
+<section xml:id="_yerevan__teather_8h_1DESCRITPION">
+<title>DESCRITPION</title>
+<para>This class represents the Ararat Teather and all is functionalities </para>
+</section>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_ararat__teather_8h_1a7a7ca54b12c67181dc1c8e86d7f5d4e2"/><section>
+    <title>ARARAT_TEATHER_H</title>
+<indexterm><primary>ARARAT_TEATHER_H</primary><secondary>ararat_teather.h</secondary></indexterm>
+<indexterm><primary>ararat_teather.h</primary><secondary>ARARAT_TEATHER_H</secondary></indexterm>
+<para><computeroutput>#define ARARAT_TEATHER_H</computeroutput></para>
+<para>headers from standard library </para>
+</section>
+</section>
+</section>

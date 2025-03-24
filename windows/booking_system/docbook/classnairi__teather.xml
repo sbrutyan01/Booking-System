@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classnairi__teather" xml:lang="en-US">
+<title>nairi_teather Class Reference</title>
+<indexterm><primary>nairi_teather</primary></indexterm>
+<para>
+
+<para>Nairi Teather class. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;nairi_teather.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classnairi__teather_1aab566d930ed4dfdaa713bf2cf3675e27">nairi_teather</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1a7cf8c6962e76c16edf2c73234874d2e4">print_welcome</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1af68ef52fafe806c0453c8c71f95f18db">print_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1ad297a96591f5d18ae612031a03ea05b8">set_seat_info_nairi_hall1</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1ae13316c908ea8ad7db64792bb9b3f91b">set_seat_info_nairi_hall2</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1ac7753ede40149046ffb99f4110d46723">set_seat_info_nairi_hall3</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1aa7e7fd2081b6f375ec0ec11ab2871542">get_seat_info_nairi_hall1</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1af9a4fbf95cb0b4fa582653154a784dcf">get_seat_info_nairi_hall2</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1af384967b11b81933d118d4061380b477">get_seat_info_nairi_hall3</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1ac30f3dc0c28fcaec216a46990f91f9aa">set_movie_list</link> (std::string movie_name1, std::string movie_name2, std::string movie_name3)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classnairi__teather_1ab59f6c619bf656eb1a86288adb02ef15">get_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classnairi__teather_1af0a77f621121075543867533f65dea91">get_movie_name</link> (int movie_number)</para>
+</listitem>
+            <listitem><para><link linkend="_classnairi__teather_1a5258e53fe2bf4d4cd93cbc3773f9e1d4">~nairi_teather</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Nairi Teather class. </para>
+
+
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classnairi__teather_1aab566d930ed4dfdaa713bf2cf3675e27"/><section>
+    <title>nairi_teather()</title>
+<indexterm><primary>nairi_teather</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>nairi_teather</secondary></indexterm>
+<para><computeroutput>nairi_teather::nairi_teather ( )</computeroutput></para>
+<para>constructor for booking system nairi class</para>
+
+<para>nairi teather class definition implementing nairi class constructor </para>
+
+<para>Mapping values to keys for every seat for nairi teather hall 1</para>
+
+<para>Mapping values to keys for every seat for nairi teather hall 2</para>
+
+<para>Mapping values to keys for every seat for nairi teather hall 3</para>
+</section>
+<anchor xml:id="_classnairi__teather_1a5258e53fe2bf4d4cd93cbc3773f9e1d4"/><section>
+    <title>~nairi_teather()</title>
+<indexterm><primary>~nairi_teather</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>~nairi_teather</secondary></indexterm>
+<para><computeroutput>nairi_teather::~nairi_teather ( )</computeroutput></para>
+<para>destructor for nairi teather class</para>
+
+<para>nairi class destructor </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classnairi__teather_1ab59f6c619bf656eb1a86288adb02ef15"/><section>
+    <title>get_movie_list()</title>
+<indexterm><primary>get_movie_list</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>get_movie_list</secondary></indexterm>
+<para><computeroutput>void nairi_teather::get_movie_list ( )</computeroutput></para>
+<para>method to print movie list </para>
+</section>
+<anchor xml:id="_classnairi__teather_1af0a77f621121075543867533f65dea91"/><section>
+    <title>get_movie_name()</title>
+<indexterm><primary>get_movie_name</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>get_movie_name</secondary></indexterm>
+<para><computeroutput>std::string nairi_teather::get_movie_name (int movie_number)</computeroutput></para>
+<para>method to get single movie name <formalpara><title>Returns</title>
+
+<para>single movie name</para>
+</formalpara>
+method to get single movie name </para>
+</section>
+<anchor xml:id="_classnairi__teather_1aa7e7fd2081b6f375ec0ec11ab2871542"/><section>
+    <title>get_seat_info_nairi_hall1()</title>
+<indexterm><primary>get_seat_info_nairi_hall1</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>get_seat_info_nairi_hall1</secondary></indexterm>
+<para><computeroutput>void nairi_teather::get_seat_info_nairi_hall1 ( )</computeroutput></para>
+<para>method to get seat info for nairi teather</para>
+
+<para>implementing <link linkend="_classnairi__teather_1aa7e7fd2081b6f375ec0ec11ab2871542">get_seat_info_nairi_hall1()</link> </para>
+</section>
+<anchor xml:id="_classnairi__teather_1af9a4fbf95cb0b4fa582653154a784dcf"/><section>
+    <title>get_seat_info_nairi_hall2()</title>
+<indexterm><primary>get_seat_info_nairi_hall2</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>get_seat_info_nairi_hall2</secondary></indexterm>
+<para><computeroutput>void nairi_teather::get_seat_info_nairi_hall2 ( )</computeroutput></para>
+<para>implementing <link linkend="_classnairi__teather_1af9a4fbf95cb0b4fa582653154a784dcf">get_seat_info_nairi_hall2()</link> </para>
+</section>
+<anchor xml:id="_classnairi__teather_1af384967b11b81933d118d4061380b477"/><section>
+    <title>get_seat_info_nairi_hall3()</title>
+<indexterm><primary>get_seat_info_nairi_hall3</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>get_seat_info_nairi_hall3</secondary></indexterm>
+<para><computeroutput>void nairi_teather::get_seat_info_nairi_hall3 ( )</computeroutput></para>
+<para>implementing <link linkend="_classnairi__teather_1af384967b11b81933d118d4061380b477">get_seat_info_nairi_hall3()</link> </para>
+</section>
+<anchor xml:id="_classnairi__teather_1af68ef52fafe806c0453c8c71f95f18db"/><section>
+    <title>print_movie_list()</title>
+<indexterm><primary>print_movie_list</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>print_movie_list</secondary></indexterm>
+<para><computeroutput>void nairi_teather::print_movie_list ( )</computeroutput></para>
+<para>method for printing move list </para>
+</section>
+<anchor xml:id="_classnairi__teather_1a7cf8c6962e76c16edf2c73234874d2e4"/><section>
+    <title>print_welcome()</title>
+<indexterm><primary>print_welcome</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>print_welcome</secondary></indexterm>
+<para><computeroutput>void nairi_teather::print_welcome ( )</computeroutput></para>
+<para>method for printing welcome message</para>
+
+<para>implementation of printing welcome message </para>
+</section>
+<anchor xml:id="_classnairi__teather_1ac30f3dc0c28fcaec216a46990f91f9aa"/><section>
+    <title>set_movie_list()</title>
+<indexterm><primary>set_movie_list</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>set_movie_list</secondary></indexterm>
+<para><computeroutput>void nairi_teather::set_movie_list (std::string movie_name1, std::string movie_name2, std::string movie_name3)</computeroutput></para>
+<para>method to set movie name</para>
+
+<para>method to set count of movies and movie names </para>
+</section>
+<anchor xml:id="_classnairi__teather_1ad297a96591f5d18ae612031a03ea05b8"/><section>
+    <title>set_seat_info_nairi_hall1()</title>
+<indexterm><primary>set_seat_info_nairi_hall1</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>set_seat_info_nairi_hall1</secondary></indexterm>
+<para><computeroutput>void nairi_teather::set_seat_info_nairi_hall1 (std::string seat_name)</computeroutput></para>
+<para>method to set seat for nairi teather 3 halls</para>
+
+<para>implementing set_seat_info_nairi_hall1 </para>
+</section>
+<anchor xml:id="_classnairi__teather_1ae13316c908ea8ad7db64792bb9b3f91b"/><section>
+    <title>set_seat_info_nairi_hall2()</title>
+<indexterm><primary>set_seat_info_nairi_hall2</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>set_seat_info_nairi_hall2</secondary></indexterm>
+<para><computeroutput>void nairi_teather::set_seat_info_nairi_hall2 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_nairi_hall2 </para>
+</section>
+<anchor xml:id="_classnairi__teather_1ac7753ede40149046ffb99f4110d46723"/><section>
+    <title>set_seat_info_nairi_hall3()</title>
+<indexterm><primary>set_seat_info_nairi_hall3</primary><secondary>nairi_teather</secondary></indexterm>
+<indexterm><primary>nairi_teather</primary><secondary>set_seat_info_nairi_hall3</secondary></indexterm>
+<para><computeroutput>void nairi_teather::set_seat_info_nairi_hall3 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_nairi_hall3 </para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+booking_system/<link linkend="_nairi__teather_8h">nairi_teather.h</link>booking_system/<link linkend="_nairi__teather_8cpp">nairi_teather.cpp</link></section>
+</section>

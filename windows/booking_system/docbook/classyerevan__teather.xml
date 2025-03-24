@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classyerevan__teather" xml:lang="en-US">
+<title>yerevan_teather Class Reference</title>
+<indexterm><primary>yerevan_teather</primary></indexterm>
+<para>
+
+<para>Yerevan Teather class. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;yerevan_teather.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classyerevan__teather_1a64dacaa33732c837661855a5824f5397">yerevan_teather</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a57883d6e105f6d60a0a6782d74848ac4">print_welcome</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a1dbeaa83ebec883f9949dce854be3532">print_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a9dde0ef3db892dfc49440120ea30e4fd">set_seat_info_yerevan_hall1</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a7b2d1a9db16575f0b3a6dc6f6a488502">set_seat_info_yerevan_hall2</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a2febd097e8b16e085f9d20ac7af3d2f8">set_seat_info_yerevan_hall3</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a4318285754fcda0deb724912ecdb896e">get_seat_info_yerevan_hall1</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a746d3fda18242f8fcdbc7dba956f3641">get_seat_info_yerevan_hall2</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a19668817202444c2425011c5fab54d29">get_seat_info_yerevan_hall3</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a3c78e76bfa55d40f3d6dad84c10b1b70">set_movie_list</link> (std::string movie_name1, std::string movie_name2, std::string movie_name3)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classyerevan__teather_1a93b1c3daf097eeb86a26d1f5a7a61b5d">get_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classyerevan__teather_1ab83b73f7dd8f439c0f90f718847c6129">get_movie_name</link> (int movie_number)</para>
+</listitem>
+            <listitem><para><link linkend="_classyerevan__teather_1a74c69a476c4e535af8295301f3f97df0">~yerevan_teather</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Yerevan Teather class. </para>
+
+
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classyerevan__teather_1a64dacaa33732c837661855a5824f5397"/><section>
+    <title>yerevan_teather()</title>
+<indexterm><primary>yerevan_teather</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>yerevan_teather</secondary></indexterm>
+<para><computeroutput>yerevan_teather::yerevan_teather ( )</computeroutput></para>
+<para>constructor for booking system yerevan class</para>
+
+<para>yerevan teather class definition implementing yerevan class constructor </para>
+
+<para>Mapping values to keys for every seat for yerevan teather hall 1</para>
+
+<para>Mapping values to keys for every seat for yerevan teather hall 2</para>
+
+<para>Mapping values to keys for every seat for yerevan teather hall 3</para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a74c69a476c4e535af8295301f3f97df0"/><section>
+    <title>~yerevan_teather()</title>
+<indexterm><primary>~yerevan_teather</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>~yerevan_teather</secondary></indexterm>
+<para><computeroutput>yerevan_teather::~yerevan_teather ( )</computeroutput></para>
+<para>destructor for yerevan teather class</para>
+
+<para>yerevan class destructor </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classyerevan__teather_1a93b1c3daf097eeb86a26d1f5a7a61b5d"/><section>
+    <title>get_movie_list()</title>
+<indexterm><primary>get_movie_list</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>get_movie_list</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::get_movie_list ( )</computeroutput></para>
+<para>method to print movie list </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1ab83b73f7dd8f439c0f90f718847c6129"/><section>
+    <title>get_movie_name()</title>
+<indexterm><primary>get_movie_name</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>get_movie_name</secondary></indexterm>
+<para><computeroutput>std::string yerevan_teather::get_movie_name (int movie_number)</computeroutput></para>
+<para>method to get single movie name <formalpara><title>Returns</title>
+
+<para>single movie name</para>
+</formalpara>
+method to get single movie name </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a4318285754fcda0deb724912ecdb896e"/><section>
+    <title>get_seat_info_yerevan_hall1()</title>
+<indexterm><primary>get_seat_info_yerevan_hall1</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>get_seat_info_yerevan_hall1</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::get_seat_info_yerevan_hall1 ( )</computeroutput></para>
+<para>method to get seat info for yerevan teather</para>
+
+<para>implementing <link linkend="_classyerevan__teather_1a4318285754fcda0deb724912ecdb896e">get_seat_info_yerevan_hall1()</link> </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a746d3fda18242f8fcdbc7dba956f3641"/><section>
+    <title>get_seat_info_yerevan_hall2()</title>
+<indexterm><primary>get_seat_info_yerevan_hall2</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>get_seat_info_yerevan_hall2</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::get_seat_info_yerevan_hall2 ( )</computeroutput></para>
+<para>implementing <link linkend="_classyerevan__teather_1a746d3fda18242f8fcdbc7dba956f3641">get_seat_info_yerevan_hall2()</link> </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a19668817202444c2425011c5fab54d29"/><section>
+    <title>get_seat_info_yerevan_hall3()</title>
+<indexterm><primary>get_seat_info_yerevan_hall3</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>get_seat_info_yerevan_hall3</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::get_seat_info_yerevan_hall3 ( )</computeroutput></para>
+<para>implementing <link linkend="_classyerevan__teather_1a19668817202444c2425011c5fab54d29">get_seat_info_yerevan_hall3()</link> </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a1dbeaa83ebec883f9949dce854be3532"/><section>
+    <title>print_movie_list()</title>
+<indexterm><primary>print_movie_list</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>print_movie_list</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::print_movie_list ( )</computeroutput></para>
+<para>method for printing move list </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a57883d6e105f6d60a0a6782d74848ac4"/><section>
+    <title>print_welcome()</title>
+<indexterm><primary>print_welcome</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>print_welcome</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::print_welcome ( )</computeroutput></para>
+<para>method for printing welcome message</para>
+
+<para>implementation of printing welcome message </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a3c78e76bfa55d40f3d6dad84c10b1b70"/><section>
+    <title>set_movie_list()</title>
+<indexterm><primary>set_movie_list</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>set_movie_list</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::set_movie_list (std::string movie_name1, std::string movie_name2, std::string movie_name3)</computeroutput></para>
+<para>method to set movie name</para>
+
+<para>method to set count of movies and movie names </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a9dde0ef3db892dfc49440120ea30e4fd"/><section>
+    <title>set_seat_info_yerevan_hall1()</title>
+<indexterm><primary>set_seat_info_yerevan_hall1</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>set_seat_info_yerevan_hall1</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::set_seat_info_yerevan_hall1 (std::string seat_name)</computeroutput></para>
+<para>method to set seat for yerevan teather 3 halls</para>
+
+<para>implementing set_seat_info_yerevan_hall1 </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a7b2d1a9db16575f0b3a6dc6f6a488502"/><section>
+    <title>set_seat_info_yerevan_hall2()</title>
+<indexterm><primary>set_seat_info_yerevan_hall2</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>set_seat_info_yerevan_hall2</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::set_seat_info_yerevan_hall2 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_yerevan_hall2 </para>
+</section>
+<anchor xml:id="_classyerevan__teather_1a2febd097e8b16e085f9d20ac7af3d2f8"/><section>
+    <title>set_seat_info_yerevan_hall3()</title>
+<indexterm><primary>set_seat_info_yerevan_hall3</primary><secondary>yerevan_teather</secondary></indexterm>
+<indexterm><primary>yerevan_teather</primary><secondary>set_seat_info_yerevan_hall3</secondary></indexterm>
+<para><computeroutput>void yerevan_teather::set_seat_info_yerevan_hall3 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_yerevan_hall3 </para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+booking_system/<link linkend="_yerevan__teather_8h">yerevan_teather.h</link>booking_system/<link linkend="_yerevan__teather_8cpp">yerevan_teather.cpp</link></section>
+</section>

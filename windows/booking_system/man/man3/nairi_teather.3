@@ -1,0 +1,131 @@
+.TH "nairi_teather" 3 "Version v1.0" "Booking System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nairi_teather \- Nairi Teather class\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <nairi_teather\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBnairi_teather\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_welcome\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_movie_list\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_nairi_hall1\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_nairi_hall2\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_nairi_hall3\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_nairi_hall1\fP ()"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_nairi_hall2\fP ()"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_nairi_hall3\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_movie_list\fP (std::string movie_name1, std::string movie_name2, std::string movie_name3)"
+.br
+.ti -1c
+.RI "void \fBget_movie_list\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBget_movie_name\fP (int movie_number)"
+.br
+.ti -1c
+.RI "\fB~nairi_teather\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Nairi Teather class\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Sergey Brutyan 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "nairi_teather::nairi_teather ()"
+constructor for booking system nairi class
+
+.PP
+nairi teather class definition implementing nairi class constructor Mapping values to keys for every seat for nairi teather hall 1
+
+.PP
+Mapping values to keys for every seat for nairi teather hall 2
+
+.PP
+Mapping values to keys for every seat for nairi teather hall 3
+.SS "nairi_teather::~nairi_teather ()"
+destructor for nairi teather class
+
+.PP
+nairi class destructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "void nairi_teather::get_movie_list ()"
+method to print movie list 
+.SS "std::string nairi_teather::get_movie_name (int movie_number)"
+method to get single movie name 
+.PP
+\fBReturns\fP
+.RS 4
+single movie name
+.RE
+.PP
+method to get single movie name 
+.SS "void nairi_teather::get_seat_info_nairi_hall1 ()"
+method to get seat info for nairi teather
+
+.PP
+implementing \fBget_seat_info_nairi_hall1()\fP 
+.SS "void nairi_teather::get_seat_info_nairi_hall2 ()"
+implementing \fBget_seat_info_nairi_hall2()\fP 
+.SS "void nairi_teather::get_seat_info_nairi_hall3 ()"
+implementing \fBget_seat_info_nairi_hall3()\fP 
+.SS "void nairi_teather::print_movie_list ()"
+method for printing move list 
+.SS "void nairi_teather::print_welcome ()"
+method for printing welcome message
+
+.PP
+implementation of printing welcome message 
+.SS "void nairi_teather::set_movie_list (std::string movie_name1, std::string movie_name2, std::string movie_name3)"
+method to set movie name
+
+.PP
+method to set count of movies and movie names 
+.SS "void nairi_teather::set_seat_info_nairi_hall1 (std::string seat_name)"
+method to set seat for nairi teather 3 halls
+
+.PP
+implementing set_seat_info_nairi_hall1 
+.SS "void nairi_teather::set_seat_info_nairi_hall2 (std::string seat_name)"
+implementing set_seat_info_nairi_hall2 
+.SS "void nairi_teather::set_seat_info_nairi_hall3 (std::string seat_name)"
+implementing set_seat_info_nairi_hall3 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Booking System from the source code\&.

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_nairi__teather_8h" xml:lang="en-US">
+<title>booking_system/nairi_teather.h File Reference</title>
+<indexterm><primary>booking_system/nairi_teather.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;<?linebreak?>#include &lt;map&gt;<?linebreak?>#include &lt;algorithm&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?></programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classnairi__teather">nairi_teather</link></para>
+
+<para>Nairi Teather class. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_nairi__teather_8h_1a14e95867e73ac172a6f5869669fc2711">NAIRI_TEATHER_H</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan <link xlink:href="mailto:sbrutyan01@gmail.com">sbrutyan01@gmail.com</link> </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0</para>
+</formalpara>
+</para>
+<section xml:id="_yerevan__teather_8h_1DESCRITPION">
+<title>DESCRITPION</title>
+<para>This class represents the Nairi Teather and all is functionalities </para>
+</section>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_nairi__teather_8h_1a14e95867e73ac172a6f5869669fc2711"/><section>
+    <title>NAIRI_TEATHER_H</title>
+<indexterm><primary>NAIRI_TEATHER_H</primary><secondary>nairi_teather.h</secondary></indexterm>
+<indexterm><primary>nairi_teather.h</primary><secondary>NAIRI_TEATHER_H</secondary></indexterm>
+<para><computeroutput>#define NAIRI_TEATHER_H</computeroutput></para>
+<para>headers from standard library </para>
+</section>
+</section>
+</section>

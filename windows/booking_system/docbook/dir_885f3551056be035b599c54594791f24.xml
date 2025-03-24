@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_885f3551056be035b599c54594791f24" xml:lang="en-US">
+<title>booking_system Directory Reference</title>
+<indexterm><primary>booking_system Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_ararat__teather_8cpp">ararat_teather.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ararat__teather_8h">ararat_teather.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_main_8cpp">main.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_nairi__teather_8cpp">nairi_teather.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_nairi__teather_8h">nairi_teather.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_yerevan__teather_8cpp">yerevan_teather.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_yerevan__teather_8h">yerevan_teather.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

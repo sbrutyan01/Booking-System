@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_nairi__teather_8h_source" xml:lang="en-US">
+<title>nairi_teather.h</title>
+<indexterm><primary>booking_system/nairi_teather.h</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 
+10 
+11 <emphasis role="preprocessor">#pragma&#32;once</emphasis><emphasis role="preprocessor"></emphasis>
+15 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+16 <emphasis role="preprocessor">#include&#32;&lt;map&gt;</emphasis>
+17 <emphasis role="preprocessor">#include&#32;&lt;algorithm&gt;</emphasis>
+18 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+19 
+20 <emphasis role="preprocessor">#ifndef&#32;NAIRI_TEATHER_H</emphasis>
+21 <emphasis role="preprocessor">#define&#32;NAIRI_TEATHER_H</emphasis>
+22 
+27 
+28 <emphasis role="keyword">class&#32;</emphasis><link linkend="_classnairi__teather_1aab566d930ed4dfdaa713bf2cf3675e27">nairi_teather</link>
+29 {
+30 <emphasis role="keyword">public</emphasis>:
+31 
+35 &#32;&#32;&#32;&#32;<link linkend="_classnairi__teather_1aab566d930ed4dfdaa713bf2cf3675e27">nairi_teather</link>();
+36 
+40 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1a7cf8c6962e76c16edf2c73234874d2e4">print_welcome</link>();
+41 
+45 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1af68ef52fafe806c0453c8c71f95f18db">print_movie_list</link>();
+46 
+47 
+51 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1ad297a96591f5d18ae612031a03ea05b8">set_seat_info_nairi_hall1</link>(std::string&#32;seat_name);
+52 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1ae13316c908ea8ad7db64792bb9b3f91b">set_seat_info_nairi_hall2</link>(std::string&#32;seat_name);
+53 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1ac7753ede40149046ffb99f4110d46723">set_seat_info_nairi_hall3</link>(std::string&#32;seat_name);
+54 
+58 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1aa7e7fd2081b6f375ec0ec11ab2871542">get_seat_info_nairi_hall1</link>();
+59 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1af9a4fbf95cb0b4fa582653154a784dcf">get_seat_info_nairi_hall2</link>();
+60 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1af384967b11b81933d118d4061380b477">get_seat_info_nairi_hall3</link>();
+61 
+65 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1ac30f3dc0c28fcaec216a46990f91f9aa">set_movie_list</link>(std::string&#32;movie_name1,&#32;std::string&#32;movie_name2,&#32;std::string&#32;movie_name3);
+66 
+70 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classnairi__teather_1ab59f6c619bf656eb1a86288adb02ef15">get_movie_list</link>();
+71 
+76 &#32;&#32;&#32;&#32;std::string&#32;<link linkend="_classnairi__teather_1af0a77f621121075543867533f65dea91">get_movie_name</link>(<emphasis role="keywordtype">int</emphasis>&#32;movie_number);
+77 
+81 &#32;&#32;&#32;&#32;<link linkend="_classnairi__teather_1a5258e53fe2bf4d4cd93cbc3773f9e1d4">~nairi_teather</link>();
+82 
+83 
+84 <emphasis role="keyword">private</emphasis>:
+85 
+89 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;nairi_seats_hall1;
+90 
+94 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;nairi_seats_hall2;
+95 
+99 &#32;&#32;&#32;&#32;std::map&lt;int,&#32;bool&gt;&#32;nairi_seats_hall3;
+100 
+104 &#32;&#32;&#32;&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keyword">const</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;MOVIE_COUNT&#32;=&#32;3;
+105 
+109 &#32;&#32;&#32;&#32;std::string&#32;movie_list[MOVIE_COUNT];
+110 };
+111 
+112 <emphasis role="preprocessor">#endif</emphasis>
+113 
+</programlisting></section>

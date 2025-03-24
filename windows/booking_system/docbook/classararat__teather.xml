@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classararat__teather" xml:lang="en-US">
+<title>ararat_teather Class Reference</title>
+<indexterm><primary>ararat_teather</primary></indexterm>
+<para>
+
+<para>Ararat Teather class. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;ararat_teather.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classararat__teather_1aa56f5dab244e1a4623184d2b964d8335">ararat_teather</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a576772e12d0d252f7948ad233ca1a8dd">print_welcome</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1ae16b059c8b88b952fc98c0d5d6f326c4">print_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a6e244ff1cadafe67ae7048cad9ae9bd4">set_seat_info_ararat_hall1</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1af70b6caf3f8a22cbabe376ac6a74574b">set_seat_info_ararat_hall2</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a2e83b1f8ce5915ce140ea3c1d0184102">set_seat_info_ararat_hall3</link> (std::string seat_name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a2dbce2243ca7fc4e739964624af1955c">get_seat_info_ararat_hall1</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a634f02f4c97637ae4d9c6c04061655ee">get_seat_info_ararat_hall2</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1aaf080e2b22e73a8d322c1831b183d9ea">get_seat_info_ararat_hall3</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1aa36cc0234a4a32a95099acec4df98895">set_movie_list</link> (std::string movie_name1, std::string movie_name2, std::string movie_name3)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classararat__teather_1a0de9ce36b25e2d205ec6eb8f82b4d100">get_movie_list</link> ()</para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classararat__teather_1af8498482cc80b4954280828286ff955a">get_movie_name</link> (int movie_number)</para>
+</listitem>
+            <listitem><para><link linkend="_classararat__teather_1a2b9eaf2d401a609b85e7acdf331a628c">~ararat_teather</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Ararat Teather class. </para>
+
+
+
+<para><formalpara><title>Author</title>
+
+<para>Sergey Brutyan </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classararat__teather_1aa56f5dab244e1a4623184d2b964d8335"/><section>
+    <title>ararat_teather()</title>
+<indexterm><primary>ararat_teather</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>ararat_teather</secondary></indexterm>
+<para><computeroutput>ararat_teather::ararat_teather ( )</computeroutput></para>
+<para>constructor for booking system ararat class</para>
+
+<para>ararat teather class definition implementing yerevan class constructor </para>
+
+<para>Mapping values to keys for every seat for ararat teather hall 1</para>
+
+<para>Mapping values to keys for every seat for ararat teather hall 2</para>
+
+<para>Mapping values to keys for every seat for ararat teather hall 3</para>
+</section>
+<anchor xml:id="_classararat__teather_1a2b9eaf2d401a609b85e7acdf331a628c"/><section>
+    <title>~ararat_teather()</title>
+<indexterm><primary>~ararat_teather</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>~ararat_teather</secondary></indexterm>
+<para><computeroutput>ararat_teather::~ararat_teather ( )</computeroutput></para>
+<para>destructor for ararat class</para>
+
+<para>ararat class destructor </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classararat__teather_1a0de9ce36b25e2d205ec6eb8f82b4d100"/><section>
+    <title>get_movie_list()</title>
+<indexterm><primary>get_movie_list</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>get_movie_list</secondary></indexterm>
+<para><computeroutput>void ararat_teather::get_movie_list ( )</computeroutput></para>
+<para>method to print movie list </para>
+</section>
+<anchor xml:id="_classararat__teather_1af8498482cc80b4954280828286ff955a"/><section>
+    <title>get_movie_name()</title>
+<indexterm><primary>get_movie_name</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>get_movie_name</secondary></indexterm>
+<para><computeroutput>std::string ararat_teather::get_movie_name (int movie_number)</computeroutput></para>
+<para>method to get single movie name <formalpara><title>Returns</title>
+
+<para>single movie name</para>
+</formalpara>
+method to get single movie name </para>
+</section>
+<anchor xml:id="_classararat__teather_1a2dbce2243ca7fc4e739964624af1955c"/><section>
+    <title>get_seat_info_ararat_hall1()</title>
+<indexterm><primary>get_seat_info_ararat_hall1</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>get_seat_info_ararat_hall1</secondary></indexterm>
+<para><computeroutput>void ararat_teather::get_seat_info_ararat_hall1 ( )</computeroutput></para>
+<para>method to get seat info for ararat teather</para>
+
+<para>implementing <link linkend="_classararat__teather_1a2dbce2243ca7fc4e739964624af1955c">get_seat_info_ararat_hall1()</link> </para>
+</section>
+<anchor xml:id="_classararat__teather_1a634f02f4c97637ae4d9c6c04061655ee"/><section>
+    <title>get_seat_info_ararat_hall2()</title>
+<indexterm><primary>get_seat_info_ararat_hall2</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>get_seat_info_ararat_hall2</secondary></indexterm>
+<para><computeroutput>void ararat_teather::get_seat_info_ararat_hall2 ( )</computeroutput></para>
+<para>implementing <link linkend="_classararat__teather_1a634f02f4c97637ae4d9c6c04061655ee">get_seat_info_ararat_hall2()</link> </para>
+</section>
+<anchor xml:id="_classararat__teather_1aaf080e2b22e73a8d322c1831b183d9ea"/><section>
+    <title>get_seat_info_ararat_hall3()</title>
+<indexterm><primary>get_seat_info_ararat_hall3</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>get_seat_info_ararat_hall3</secondary></indexterm>
+<para><computeroutput>void ararat_teather::get_seat_info_ararat_hall3 ( )</computeroutput></para>
+<para>implementing <link linkend="_classararat__teather_1aaf080e2b22e73a8d322c1831b183d9ea">get_seat_info_ararat_hall3()</link> </para>
+</section>
+<anchor xml:id="_classararat__teather_1ae16b059c8b88b952fc98c0d5d6f326c4"/><section>
+    <title>print_movie_list()</title>
+<indexterm><primary>print_movie_list</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>print_movie_list</secondary></indexterm>
+<para><computeroutput>void ararat_teather::print_movie_list ( )</computeroutput></para>
+<para>method for printing move list </para>
+</section>
+<anchor xml:id="_classararat__teather_1a576772e12d0d252f7948ad233ca1a8dd"/><section>
+    <title>print_welcome()</title>
+<indexterm><primary>print_welcome</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>print_welcome</secondary></indexterm>
+<para><computeroutput>void ararat_teather::print_welcome ( )</computeroutput></para>
+<para>method for printing welcome message</para>
+
+<para>implementation of printing welcome message </para>
+</section>
+<anchor xml:id="_classararat__teather_1aa36cc0234a4a32a95099acec4df98895"/><section>
+    <title>set_movie_list()</title>
+<indexterm><primary>set_movie_list</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>set_movie_list</secondary></indexterm>
+<para><computeroutput>void ararat_teather::set_movie_list (std::string movie_name1, std::string movie_name2, std::string movie_name3)</computeroutput></para>
+<para>method to set movie name</para>
+
+<para>method to set count of movies and movie names </para>
+</section>
+<anchor xml:id="_classararat__teather_1a6e244ff1cadafe67ae7048cad9ae9bd4"/><section>
+    <title>set_seat_info_ararat_hall1()</title>
+<indexterm><primary>set_seat_info_ararat_hall1</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>set_seat_info_ararat_hall1</secondary></indexterm>
+<para><computeroutput>void ararat_teather::set_seat_info_ararat_hall1 (std::string seat_name)</computeroutput></para>
+<para>method to set seat for ararat teather 3 halls</para>
+
+<para>implementing set_seat_info_ararat_hall1 </para>
+</section>
+<anchor xml:id="_classararat__teather_1af70b6caf3f8a22cbabe376ac6a74574b"/><section>
+    <title>set_seat_info_ararat_hall2()</title>
+<indexterm><primary>set_seat_info_ararat_hall2</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>set_seat_info_ararat_hall2</secondary></indexterm>
+<para><computeroutput>void ararat_teather::set_seat_info_ararat_hall2 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_ararat_hall2 </para>
+</section>
+<anchor xml:id="_classararat__teather_1a2e83b1f8ce5915ce140ea3c1d0184102"/><section>
+    <title>set_seat_info_ararat_hall3()</title>
+<indexterm><primary>set_seat_info_ararat_hall3</primary><secondary>ararat_teather</secondary></indexterm>
+<indexterm><primary>ararat_teather</primary><secondary>set_seat_info_ararat_hall3</secondary></indexterm>
+<para><computeroutput>void ararat_teather::set_seat_info_ararat_hall3 (std::string seat_name)</computeroutput></para>
+<para>implementing set_seat_info_ararat_hall3 </para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+booking_system/<link linkend="_ararat__teather_8h">ararat_teather.h</link>booking_system/<link linkend="_ararat__teather_8cpp">ararat_teather.cpp</link></section>
+</section>

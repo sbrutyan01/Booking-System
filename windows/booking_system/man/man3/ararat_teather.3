@@ -1,0 +1,131 @@
+.TH "ararat_teather" 3 "Version v1.0" "Booking System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ararat_teather \- Ararat Teather class\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <ararat_teather\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBararat_teather\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_welcome\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_movie_list\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_ararat_hall1\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_ararat_hall2\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBset_seat_info_ararat_hall3\fP (std::string seat_name)"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_ararat_hall1\fP ()"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_ararat_hall2\fP ()"
+.br
+.ti -1c
+.RI "void \fBget_seat_info_ararat_hall3\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_movie_list\fP (std::string movie_name1, std::string movie_name2, std::string movie_name3)"
+.br
+.ti -1c
+.RI "void \fBget_movie_list\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBget_movie_name\fP (int movie_number)"
+.br
+.ti -1c
+.RI "\fB~ararat_teather\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Ararat Teather class\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Sergey Brutyan 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ararat_teather::ararat_teather ()"
+constructor for booking system ararat class
+
+.PP
+ararat teather class definition implementing yerevan class constructor Mapping values to keys for every seat for ararat teather hall 1
+
+.PP
+Mapping values to keys for every seat for ararat teather hall 2
+
+.PP
+Mapping values to keys for every seat for ararat teather hall 3
+.SS "ararat_teather::~ararat_teather ()"
+destructor for ararat class
+
+.PP
+ararat class destructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "void ararat_teather::get_movie_list ()"
+method to print movie list 
+.SS "std::string ararat_teather::get_movie_name (int movie_number)"
+method to get single movie name 
+.PP
+\fBReturns\fP
+.RS 4
+single movie name
+.RE
+.PP
+method to get single movie name 
+.SS "void ararat_teather::get_seat_info_ararat_hall1 ()"
+method to get seat info for ararat teather
+
+.PP
+implementing \fBget_seat_info_ararat_hall1()\fP 
+.SS "void ararat_teather::get_seat_info_ararat_hall2 ()"
+implementing \fBget_seat_info_ararat_hall2()\fP 
+.SS "void ararat_teather::get_seat_info_ararat_hall3 ()"
+implementing \fBget_seat_info_ararat_hall3()\fP 
+.SS "void ararat_teather::print_movie_list ()"
+method for printing move list 
+.SS "void ararat_teather::print_welcome ()"
+method for printing welcome message
+
+.PP
+implementation of printing welcome message 
+.SS "void ararat_teather::set_movie_list (std::string movie_name1, std::string movie_name2, std::string movie_name3)"
+method to set movie name
+
+.PP
+method to set count of movies and movie names 
+.SS "void ararat_teather::set_seat_info_ararat_hall1 (std::string seat_name)"
+method to set seat for ararat teather 3 halls
+
+.PP
+implementing set_seat_info_ararat_hall1 
+.SS "void ararat_teather::set_seat_info_ararat_hall2 (std::string seat_name)"
+implementing set_seat_info_ararat_hall2 
+.SS "void ararat_teather::set_seat_info_ararat_hall3 (std::string seat_name)"
+implementing set_seat_info_ararat_hall3 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Booking System from the source code\&.
